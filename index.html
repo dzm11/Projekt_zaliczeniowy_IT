@@ -10,8 +10,36 @@
 .my-content{
     text-align: center;
 }
+.nav-item{
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.my-row-separator{
+    height: 50px;
+}
+.page-footer{
 
-
+}
+.my-menu{
+    padding-bottom: 28px;
+padding-left: 17px;
+padding-right: 17px;
+padding-top: 17px;
+}
+.logowanie{
+padding-bottom: 28px;
+padding-left: 17px;
+padding-right: 17px;
+padding-top: 17px;
+}
+.rejestracja{
+padding-bottom: 28px;
+padding-left: 17px;
+padding-top: 17px;
+}
 </style>
 </head>
 <body>
@@ -23,24 +51,37 @@
             </button>
                 <div class="collapse navbar-collapse" id="navbarMenu">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Menu_1</a>
+                        <li class="nav-item my-menu">
+                            <a href="#" class="nav-link  text-dark">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Menu_2</a>
+                        <li class="nav-item my-menu">
+                            <a href="#" class="nav-link  text-dark">Service</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Menu_3</a>
+                        <li class="nav-item my-menu">
+                            <a href="#" class="nav-link  text-dark">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Menu_4</a>
+                        <li class="nav-item my-menu">
+                            <a href="#" class="nav-link text-dark">Contact</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Menu_5</a>
+                        <li class="nav-item my-menu">
+                            <a href="#" class="nav-link  text-dark">FAQ</a>
+                        </li>
+                        <li role="separator" class="nav-link"></li>
+                        <li role="separator" class="nav-link"></li>
+                        <li role="separator" class="nav-link"></li>
+                        <li class="nav-item logowanie">
+                            <a href="#" class="nav-link text-secondary">Zaloguj się</a>
+                        </li>
+                        <li class="nav-item rejestracja">
+                            <a href="#" class="nav-link text-secondary">Zarejestruj się</a>
                         </li>
                     </ul>
                 </div>  
     </nav>
+    
+    <div class="separator">
+        <div class="row my-row-separator"></div>
+    </div>
     <div class="row justify-content-center my-content">
         <div class="col my-col">
             <h1>Tutaj bedzie cały kontent</h1>
