@@ -1,19 +1,10 @@
-.my-content{
+.my-container{
     text-align: center;
 }
 .nav-item{
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     font-size: 14pt;
-}
-.navbar-brand{
-    font-weight: bold;
-}
-.my-row-separator{
-    height: 50px;
-}
-.page-footer{
-
 }
 .my-grid{
     border: black solid;
@@ -34,4 +25,37 @@ padding-top: 17px;
 padding-bottom: 28px;
 padding-left: 17px;
 padding-top: 17px;
+}
+.home{
+    background-image: url(/img/bg-hero.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 90%;
+    height: 100%;
+    padding-top: 50px;
+    text-align: left;
+}
+h1{
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+font-size: 40;
+line-height: 48px;
+}
+h5{
+    margin-top: 15px;
+font-family: 'Montserrat', sans-serif;
+font-weight: regular;
+font-size: 20;
+line-height: 24px;
+}
+.btn{
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    background-color: #ff5b2e;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    border-radius: 23px;
+    box-shadow: 0 50 0 2 rgba(109, 86, 82,.26;
 }
