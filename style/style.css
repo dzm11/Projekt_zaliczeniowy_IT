@@ -24,7 +24,7 @@ padding-left: 17px;
 padding-top: 17px;
 }
 .home{
-    background-image: url(/img/bg-hero.svg);
+    background-image: url(img/bg-hero.svg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 70%;
