@@ -1,5 +1,26 @@
-body{
+body {
     margin:0;
-    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 80%;
+
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 4em;
+    margin-top: 2em;
+}
+.box1 {
+background-color: red;
+}
+.box2 {
+background-color: green;
+}
+.box3 {
+background: blue;
+}
+.card {
+background
 }
  
